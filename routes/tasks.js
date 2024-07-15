@@ -6,6 +6,8 @@ const {
   getAllIntroImages,
   getAllShortMenuItems,
   getAllSides,
+  getAllAddons,
+  getAllDesserts,
   getSingleMenuItem,
   getAllStoryItems,
   getAllEmployees,
@@ -19,6 +21,8 @@ router.route("/introimages").get(getAllIntroImages);
 router.route("/shortmenuitems").get(getAllShortMenuItems);
 router.route("/fullmenuitems/:id").get(getSingleMenuItem);
 router.route("/sides").get(getAllSides);
+router.route("/addons").get(getAllAddons);
+router.route("/desserts").get(getAllDesserts);
 router.route("/storyitems").get(getAllStoryItems);
 router.route("/employees").get(getAllEmployees);
 router.route("/missions").get(getAllMissions);
